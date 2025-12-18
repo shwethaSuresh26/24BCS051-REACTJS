@@ -1,10 +1,9 @@
+import Card from "./Card";
+
 function Dashboard() {
     return (
-        <div>
-            <h1>Dashboard</h1>
-            <h2>shwetha</h2>
-        </div>
+        
+        <Card fullname="john" occ="developer" />
     )
 }
-
 export default Dashboard;
