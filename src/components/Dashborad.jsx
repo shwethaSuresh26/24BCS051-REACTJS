@@ -1,9 +1,9 @@
 import Card from "./Card";
 
-function Dashboard() {
+function Dashboard({name,occ, nameChange,changeOcc}) {
     return (
         
-        <Card fullname="john" occ="developer" />
+        <Card fullname={name} occ={occ} nameChange={nameChange} changeOcc={changeOcc}/>
     )
 }
-export default Dashboard;
+export default Dashboard
